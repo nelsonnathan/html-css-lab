@@ -1,0 +1,81 @@
+*{
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.top-rect {
+    border: solid black 5px;
+    box-sizing: border-box; 
+    height: 30vh;
+    width: 96vw;
+    margin: auto;
+
+    position: relative;
+}
+
+.purp-shape {
+    background-color: rgb(151,0,251);
+    height: 20vh;
+    width: 5vw;
+    position: absolute;
+    bottom: 1.5vw;
+    left:1vw;
+}
+.gree-shape {
+    background-color: rgb(0, 144, 30);
+    height: 26vh;
+    width: 35vw;
+    position: absolute;
+    bottom: 1.5vw;
+    left: 10vw;
+}
+
+.blue-shape {
+    background-color: rgb(120, 208, 236);
+    border-radius: 50%;
+    height: 26vh;
+    width: 26vh;
+    position: absolute;
+    bottom: 1.5vw;
+    left: 49vw;
+}
+
+
+.middle-rect {
+    box-sizing: border-box;
+    height: 30vh;
+    width: 96vw;
+    margin: auto;
+    border: dotted black;
+    margin-top: 15px;
+    padding-top: 3.75vh;
+}
+
+.almond-rect {
+    box-sizing: border-box;
+    background-color: rgb(255, 251, 204);
+    box-shadow: 10px 10px 10px black;
+    height: 22.5vh;
+    width: 88vw;
+    margin: auto;
+}
+
+
+.bottom-rect {
+    box-sizing: border-box;
+    border: solid black 1px;
+    height: 40vh;
+    width: 50vw;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+    margin-top:15px;
+}
+
+.text {
+    text-align: center;
+    font-size:8vh;
+    color: navy;
+    padding:10vh;
+    position: relative;
+    letter-spacing: 5px;
+}
